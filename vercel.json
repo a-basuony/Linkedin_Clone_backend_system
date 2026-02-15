@@ -15,5 +15,8 @@
       "source": "/(.*)",
       "destination": "/server.js"
     }
-  ]
+  ],
+  "env": {
+    "CLIENT_URL": "https://linkedin-clone-two-taupe.vercel.app/"
+  }
 }

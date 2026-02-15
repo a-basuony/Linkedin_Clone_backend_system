@@ -21,9 +21,14 @@ connectDB();
 
 // CORS Configuration
 // In Vercel, you can also manage this via vercel.json
+const allowedOrigins = [
+    process.env.CLIENT_URL || "http://localhost:5173",
+    "https://linkedin-clone-two-taupe.vercel.app"
+];
+
 app.use(
     cors({
-        origin: process.env.CLIENT_URL || "http://localhost:5173",
+        origin: allowedOrigins,
         credentials: true,
     })
 );
