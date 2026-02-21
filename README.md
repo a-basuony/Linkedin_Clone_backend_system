@@ -3,7 +3,8 @@
 <h1 align="center">Linkedin Clone ✨</h1>
 
 Demo : https://linkedin-clone-two-taupe.vercel.app/
-https://github.com/a-basuony/Dardasha_real_time_chat_frontend
+
+frontend: https://github.com/a-basuony/Dardasha_real_time_chat_frontend
 
 <img width="1882" height="881" alt="image" src="https://github.com/user-attachments/assets/c3c956b5-52cc-4f65-be3b-5bb38f079ac3" />
 
@@ -58,4 +59,5 @@ npm run build
 ```shell
 npm run start
 ```
+
 
